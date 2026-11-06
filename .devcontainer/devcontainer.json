@@ -1,0 +1,9 @@
+{
+  "name": "react-study",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "postCreateCommand": "npm install",
+  "forwardPorts": [5173],
+  "portsAttributes": {
+    "5173": { "label": "React 미리보기", "onAutoForward": "openPreview" }
+  }
+}
